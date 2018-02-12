@@ -2,18 +2,40 @@
 title: Le Wagon - Middleman
 ---
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
-    <p class="team">
-      <%= link_to "Meet the team", "team.html", class: "btn btn-primary" %>
-    </p>
 
+  <div class="banner">
+    <div class="home-content">
+      <%= image_tag "logo.png", width: "200" %>
+      <p>
+        Middleman is now running!
+      </p>
+      <p class="about">
+        <%= link_to "More about this template", "about.html" %>
+      </p>
+
+      <p class="team">
+        <%= link_to "Meet the team", "team.html", class: "btn btn-primary" %>
+      </p>
+    </div>
   </div>
-</div>
+
+  <div class="container">
+    <div class="row">
+      <% data.cities.each do |city| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/<%=city.name.downcase%>');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>Le Wagon <%=city.name%> </h2>
+            <p> <%=city.address%> </p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="#" ></a>
+        </div>
+      </div>
+      <% end %>
+    </div>
+  </div>
+
+
+

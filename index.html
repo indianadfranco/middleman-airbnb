@@ -7,7 +7,7 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>Le Wagon - Middleman</title>
-    <link href="stylesheets/application-d3ad9910.css" rel="stylesheet" />
+    <link href="stylesheets/application-4eca02d8.css" rel="stylesheet" />
     <script src="javascripts/application-93de88c9.js"></script>
     <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
@@ -31,7 +31,7 @@
         <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="avatar dropdown-toggle" id="navbar-wagon-menu" data-toggle="dropdown">
         <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
           <li><a href="#">Profile</a></li>
-          <li><a href="#">Dashboard</a></li>
+          <li><a href="dashboard.html">Dashboard</a></li>
           <li><a href="#">Log Out</a></li>
         </ul>
       </div>
@@ -52,7 +52,8 @@
 </div>
 
 
-    
+
+    <div id="home">
   <div class="banner">
     <div class="home-content">
       <img src="images/logo-acc9c0ec.png" width="200" alt="Logo" />
@@ -70,6 +71,7 @@
   </div>
 
   <div class="container">
+    <h1>Our different cities</h1>
     <div class="row">
       <div class="col-xs-12 col-sm-4">
         <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/berlin');">
@@ -79,7 +81,7 @@
             <p> Rudi-Dutschke-Straße 26, 10969 Berlin </p>
           </div>
           <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-          <a class="card-link" href="#" ></a>
+          <a class="card-link" href="https://www.lewagon.com/berlin" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
@@ -90,7 +92,7 @@
             <p> 16, villa Gaudelet 75011 Paris </p>
           </div>
           <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-          <a class="card-link" href="#" ></a>
+          <a class="card-link" href="https://www.lewagon.com/paris" ></a>
         </div>
       </div>
       <div class="col-xs-12 col-sm-4">
@@ -101,11 +103,116 @@
             <p> Tetris House </p>
           </div>
           <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
-          <a class="card-link" href="#" ></a>
+          <a class="card-link" href="https://www.lewagon.com/lisbon" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/barcelona');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>Le Wagon Barcelona </h2>
+            <p> Ramblas </p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="https://www.lewagon.com/barcelona" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/brussels');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>Le Wagon Brussels </h2>
+            <p> Lalalala </p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="https://www.lewagon.com/brussels" ></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/bali');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2>Le Wagon Bali </h2>
+            <p> beach </p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="https://www.lewagon.com/bali" ></a>
         </div>
       </div>
     </div>
   </div>
+  <div class="container" id="home-flats">
+    <h2 class="text-center">Recent flats</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/paris');">
+          <div class="card-category">Paris, France</div>
+          <div class="card-description">
+            <h3>Sebastien's home</h3>
+            <p>Charming room in Montmartre</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" class="card-user" alt="Ssaunier" />
+          <a href="flats/ssaunier.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/tokyo');">
+          <div class="card-category">Tokyo, Japan</div>
+          <div class="card-description">
+            <h3>Boris' home</h3>
+            <p>Small flat in Tokyo</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/papillard" class="card-user" alt="Papillard" />
+          <a href="flats/papillard.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/london');">
+          <div class="card-category">London, UK</div>
+          <div class="card-description">
+            <h3>Romain's home</h3>
+            <p>Nice flat in Piccadilly</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="card-user" alt="Monsieurpaillard" />
+          <a href="flats/monsieurpaillard.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/barcelona');">
+          <div class="card-category">Barcelona, Spain</div>
+          <div class="card-description">
+            <h3>Andy Barnov's home</h3>
+            <p>Charming room in Barcelona</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/progapandist" class="card-user" alt="Progapandist" />
+          <a href="flats/progapandist.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/brussels');">
+          <div class="card-category">Brussels, Belgium</div>
+          <div class="card-description">
+            <h3>Martin' home</h3>
+            <p>Small flat in Brussels</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/vanakenm" class="card-user" alt="Vanakenm" />
+          <a href="flats/vanakenm.html" class="card-link"></a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="card" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/bali');">
+          <div class="card-category">Bali, Indonesia</div>
+          <div class="card-description">
+            <h3>Luca's home</h3>
+            <p>Nice flat in Bali</p>
+          </div>
+          <img src="https://kitt.lewagon.com/placeholder/users/spagnolodesign" class="card-user" alt="Spagnolodesign" />
+          <a href="flats/spagnolodesign.html" class="card-link"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 

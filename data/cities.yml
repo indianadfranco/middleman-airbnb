@@ -4,4 +4,10 @@
   address: "16, villa Gaudelet 75011 Paris"
 - name: "Lisbon"
   address: "Tetris House"
+- name: "Barcelona"
+  address: "Ramblas"
+- name: "Brussels"
+  address: "Lalalala"
+- name: "Bali"
+  address: "beach"
 
